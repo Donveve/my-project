@@ -1,0 +1,39 @@
+{
+  "name": "my-project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-loader": "^8.0.4",
+    "firebase": "^6.3.5",
+    "re-base": "^4.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-transition-group": "^4.2.2",
+    "serve": "^11.1.0"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve --single ./build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "now-build": "npm run build && mv build dist",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
